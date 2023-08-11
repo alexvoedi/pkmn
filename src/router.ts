@@ -4,8 +4,12 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    component: () => import('./pages/index.vue')
-  }
+    component: () => import('./pages/index.vue'),
+  },
+  {
+    path: '/battle',
+    component: () => import('./pages/battle.vue'),
+  },
 ]
 
 const router = createRouter({
