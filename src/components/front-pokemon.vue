@@ -16,7 +16,7 @@ const sprite = computed(() => {
   </div>
 
   <div style="grid-area: 1 / 2 / 3 / 3" class="flex items-center justify-center relative">
-    <img :src="sprite" class="w-50% transform transform-gpu image-render-pixel absolute">
+    <img :src="sprite" class="w-50% transform transform-gpu translate-y-8 image-render-pixel absolute">
   </div>
 </template>
 

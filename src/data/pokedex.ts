@@ -19,4 +19,20 @@ export const pokedex: Record<string, PokemonData> = {
       pokemonMove.Tackle,
     ],
   },
+  Gyarados: {
+    id: 130,
+    name: 'Gyarados',
+    types: [PokemonType.Water, PokemonType.Flying],
+    stats: {
+      hp: 95,
+      attack: 125,
+      defense: 79,
+      specialAttack: 60,
+      specialDefense: 100,
+      speed: 81,
+    },
+    moveSet: [
+      pokemonMove.Tackle,
+    ],
+  },
 }

@@ -23,5 +23,6 @@ html, body, #app {
   background-color: black;
   font-family: 'Pokemon';
   font-size: 3vmin;
+  pointer-events: none;
 }
 </style>

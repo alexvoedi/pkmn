@@ -8,6 +8,9 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     BackPokemon: typeof import('./../components/back-pokemon.vue')['default']
+    BattleMenu: typeof import('./../components/battle-menu.vue')['default']
+    BattleMenuAttacks: typeof import('./../components/battle-menu/attacks.vue')['default']
+    BattleMenuMain: typeof import('./../components/battle-menu/main.vue')['default']
     FrontPokemon: typeof import('./../components/front-pokemon.vue')['default']
     PokemonStats: typeof import('./../components/pokemon-stats.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
